@@ -1,0 +1,33 @@
+footer {
+    border-top-style: solid;
+    border-width: 1.5px;
+}
+.footer_heading {
+    margin-top: 2%;
+    /* color: mediumseagreen; */
+    font-weight: bold;
+}
+
+.socials {
+    padding-top: 1%;
+  }
+.socials_item {
+    /* display: inline-block; */
+    width: 2.5rem;
+    height: 2.5rem;
+    /* line-height: 2rem; */
+    /* text-align: center; */
+    padding-top: 10px;
+    font-size: 1.2rem;
+    margin-left: 0.3rem;
+    margin-top: 0;
+    color: white;
+    background: mediumseagreen;
+    border-radius: 50%;
+  }
+  
+  .socials_item:hover {
+    transition: all .1s ease-in-out;
+    background: #3cb8dd;
+    text-decoration: none;
+  }

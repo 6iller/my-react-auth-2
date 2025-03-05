@@ -1,0 +1,58 @@
+header {
+    min-height: 200px;
+    border-bottom-style: solid;
+    border-width: 1.5px;
+    
+}
+
+.registerButton {
+    margin-left: 10rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: mediumseagreen;
+}
+
+.toggleButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.light-theme-button {
+    background-color: #333;
+    color: mediumseagreen;
+}
+
+.dark-theme-button {
+    background-color: white;
+    color: mediumseagreen;
+}
+
+.nav_bottom_panel {
+    margin-top: 50px;
+
+}
+
+.nav_bottom_panel_links {
+    margin-left: 50px;
+    margin-right: 50px;
+    border-radius: 8px;
+    color: mediumseagreen;
+  border: 1px solid transparent;
+  padding: 20px 40px 20px 40px;
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: inherit;
+  /* background-color: #1a1a1a; */
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+.nav_bottom_panel_links:hover {
+    color: mediumslateblue;
+    text-decoration: none;
+    background-color:rgb(88, 251, 161);
