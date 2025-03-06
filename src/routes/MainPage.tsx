@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTheme } from '../components/ThemeWrapper/ThemeWrapper';
 import './MainPage.css' 
-import Todos from './todos';
+import TodoList from './TodoList'
 
 const Main: React.FC = () => {
   const { isDarkTheme } = useTheme();
@@ -42,7 +42,7 @@ const Main: React.FC = () => {
                     </div>
                 </div>
             </div>
-            {/* <Todos/> */}
+            {/* <TodoList /> */}
         </main>
     );
 };
